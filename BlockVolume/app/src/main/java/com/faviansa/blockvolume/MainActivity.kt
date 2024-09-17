@@ -1,7 +1,6 @@
 package com.faviansa.blockvolume
 
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
@@ -10,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class MainActivity : AppCompatActivity(), View.OnClickListener {
+class MainActivity : AppCompatActivity() {
     private lateinit var edtWidth: EditText
     private lateinit var edtLength: EditText
     private lateinit var edtHeight: EditText
@@ -32,27 +31,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         btnCalculate = findViewById(R.id.btn_calculate)
         tvResult = findViewById(R.id.tv_result)
 
-        btnCalculate.setOnClickListener(this)
-
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
-        }
-
-        if (savedInstanceState != null) {
-            val result = savedInstanceState.getString(STATE_RESULT)
-            tvResult.text = result
-        }
-    }
-
-    override fun onSaveInstanceState(outState: Bundle) {
-        super.onSaveInstanceState(outState)
-        outState.putString(STATE_RESULT, tvResult.text.toString())
-    }
-
-    override fun onClick(view: View?) {
-        if (view?.id == R.id.btn_calculate) {
+        btnCalculate.setOnClickListener {
             val inputLength = edtLength.text.toString().trim()
             val inputWidth = edtWidth.text.toString().trim()
             val inputHeight = edtHeight.text.toString().trim()
@@ -77,5 +56,26 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 tvResult.text = volume.toString()
             }
         }
+
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
+            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
+            v.setPadding(
+                systemBars.left + v.paddingLeft,
+                systemBars.top + v.paddingTop,
+                systemBars.right + v.paddingRight,
+                systemBars.bottom + v.paddingBottom
+            )
+            insets
+        }
+
+        if (savedInstanceState != null) {
+            val result = savedInstanceState.getString(STATE_RESULT)
+            tvResult.text = result
+        }
+    }
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+        outState.putString(STATE_RESULT, tvResult.text.toString())
     }
 }

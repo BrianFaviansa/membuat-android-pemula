@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MyViewAndViewGroup</string>
+    <string name="content_text">Google officially announced its much-anticipated Pixel phones, the Pixel and Pixel XL, on October 4, marking a significant shift in the company’s smartphone strategy. The event was highly anticipated by tech enthusiasts and industry insiders alike, as it introduced a new era for Google in the hardware space. We attended Google’s launch event in London, UK, which mirrored the main unveiling happening in San Francisco, US. At both events, Google proudly revealed its new Android 7.1 Nougat devices, signaling the end of the Nexus line and the beginning of the Pixel brand, which Google positioned as its flagship smartphone series.
+        The Pixel phones represent more than just a hardware update they are Google\'s first phones designed and engineered entirely in-house, showcasing a deeper integration of hardware and software. With features like the new Google Assistant, unlimited cloud storage for photos and videos, and a camera that Google claimed to be the best ever on a smartphone, the Pixel and Pixel XL are seen as direct competitors to Apple\'s iPhone and other high-end Android devices. The phones also boast sleek aluminum and glass designs, powerful Snapdragon processors, and vibrant OLED displays, with the XL model featuring a larger screen.</string>
+    <string name="content_specs_display">5.0 inches\n
+        FHD AMOLED at 441ppi\n
+        2.5D Corning® Gorilla® Glass 4</string>
+    <string name="content_specs_size">5.6 x 2.7 x 0.2 ~ 0.3 inches 143.8 x 69.5 x 7.3 ~ 8.5 mm</string>
+    <string name="content_specs_battery">2,770 mAh battery\n
+        Standby time (LTE): up to 19 days\n
+        Talk time (3g/WCDMA): up to 26 hours\n
+        Internet use time (Wi-Fi): up to 13 hours\n
+        Internet use time (LTE): up to 13 hours\n
+        Video playback: up to 13 hours\n
+        Audio playback (via headset): up to 110 hours\n
+        Fast charging: up to 7 hours of use from only 15 minutes of charging</string>
+    <string name="title">Google Pixel</string>
+    <string name="specification">Spesifikasi</string>
+    <string name="display">Display</string>
+    <string name="size">Size</string>
+    <string name="battery">Battery</string>
+    <string name="seller">Dijual oleh</string>
+    <string name="my_name">Hibou Gaming</string>
+    <string name="buy">Beli</string>
+    <string name="dummy_value">$735</string>
+    <string name="dummy_photos">6 photos</string>
+</resources>

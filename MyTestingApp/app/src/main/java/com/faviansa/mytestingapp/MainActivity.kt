@@ -11,6 +11,10 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
+    companion object {
+        private const val TAG = "MainActivity"
+    }
+    
     private lateinit var btnSetValue: Button
     private lateinit var tvText: TextView
     private var names = ArrayList<String>()
@@ -50,6 +54,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 name.append(names[i]).append("\n")
             }
             tvText.text = name.toString()
+            
         }
     }
 }

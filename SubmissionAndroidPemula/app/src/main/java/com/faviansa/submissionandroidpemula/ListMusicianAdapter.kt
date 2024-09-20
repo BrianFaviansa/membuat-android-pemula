@@ -1,5 +1,6 @@
 package com.faviansa.submissionandroidpemula
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -24,15 +25,19 @@ class ListMusicianAdapter(private val listMusician: ArrayList<Musician>) :
     }
 
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
-        val (name, description, photo) = listMusician[position]
+        val (name, description, photo, favSong) = listMusician[position]
         holder.imgPhoto.setImageResource(photo)
         holder.tvName.text = name
         holder.tvDescription.text = description
-//        holder.itemView.setOnClickListener {
-//            val intentDetail = Intent(holder.itemView.context, DetailActivity::class.java)
-//            intentDetail.putExtra("key_musician", listMusician[holder.adapterPosition])
-//            holder.itemView.context.startActivity(intentDetail)
-//        }
+        holder.itemView.setOnClickListener {
+            val musicianData = Musician(
+                name, description, photo, favSong
+            )
+            val intentDetail = Intent(holder.itemView.context, DetailActivity::class.java).apply {
+                putExtra("EXTRA_MUSICIAN", musicianData)
+            }
+            holder.itemView.context.startActivity(intentDetail)
+        }
     }
 
 

@@ -4,9 +4,8 @@ import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
 
 @Parcelize
-data class Musician(
+data class About(
     val name: String,
-    val description: String,
-    val photo: Int,
-    val favSong: String
+    val email: String,
+    val photo: Int
 ) : Parcelable

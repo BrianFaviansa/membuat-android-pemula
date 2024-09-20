@@ -26,6 +26,24 @@
         <item>Linked Horizon</item>
     </string-array>
 
+    <string-array name="fav_song">
+        <item>Pelanggaran</item>
+        <item>Wirang</item>
+        <item>Nemen</item>
+        <item>Mendung Tanpo Udan</item>
+        <item>Kisinan 2</item>
+        <item>It Will Rain</item>
+        <item>Payphone</item>
+        <item>Story of My Life</item>
+        <item>Viva La Vida</item>
+        <item>Take Me to Church</item>
+        <item>Car\'s Outside</item>
+        <item>Usai</item>
+        <item>Breathe</item>
+        <item>Yoru Ni Kakeru</item>
+        <item>Shinzo wo Sasageyo!</item>
+    </string-array>
+
     <integer-array name="data_photo">
         <item>@drawable/guyon_waton</item>
         <item>@drawable/denny_caknan</item>

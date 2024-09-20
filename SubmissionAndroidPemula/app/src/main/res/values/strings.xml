@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">My Fav Musicians</string>
+
+    <string name="musicians_name">Nama Musisi</string>
+    <string name="description">Deskripsi</string>
+    <string name="about">About</string>
+
+
+    <string-array name="data_name">
+        <item>Guyon Waton</item>
+        <item>Denny Caknan</item>
+        <item>NDX A.K.A</item>
+        <item>Ndarboy Genk</item>
+        <item>Masddho</item>
+        <item>Bruno Mars</item>
+        <item>Maroon 5</item>
+        <item>One Direction</item>
+        <item>Coldplay</item>
+        <item>Hozier</item>
+        <item>James Arthur</item>
+        <item>Tiara Andini</item>
+        <item>Lee Hi</item>
+        <item>Yoasobi</item>
+        <item>Linked Horizon</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/guyon_waton</item>
+        <item>@drawable/denny_caknan</item>
+        <item>@drawable/ndx_aka</item>
+        <item>@drawable/ndarboy_genk</item>
+        <item>@drawable/masddho</item>
+        <item>@drawable/bruno_mars</item>
+        <item>@drawable/maroon5</item>
+        <item>@drawable/one_direction</item>
+        <item>@drawable/coldplay</item>
+        <item>@drawable/hozier</item>
+        <item>@drawable/james_arthur</item>
+        <item>@drawable/tiara_andini</item>
+        <item>@drawable/lee_hi</item>
+        <item>@drawable/yoasobi</item>
+        <item>@drawable/linked_horizon</item>
+    </integer-array>
+
+    <string-array name="data_description">
+        <item>Guyon Waton adalah grup musik asal Indonesia yang dikenal dengan lagu-lagu bergenre campursari, menggabungkan unsur-unsur tradisional dan modern. Mereka terkenal dengan lirik yang lucu dan menghibur, sering kali menggambarkan kehidupan sehari-hari masyarakat. Dengan melodi yang catchy dan irama yang menyenangkan, Guyon Waton berhasil menarik perhatian banyak pendengar, terutama di kalangan anak muda. Karya-karya mereka tidak hanya menghibur, tetapi juga mencerminkan nilai-nilai budaya lokal, menjadikan mereka favorit di berbagai acara hiburan.</item>
+
+        <item>Denny Caknan merupakan penyanyi dan pencipta lagu yang populer di Indonesia, khususnya di genre dangdut. Ia dikenal karena lagu-lagu yang seringkali mengisahkan tentang cinta, kehilangan, dan pengalaman hidup sehari-hari. Dengan suara yang khas dan gaya penampilan yang menarik, Denny telah meraih banyak penghargaan dan penggemar setia. Karya-karyanya mampu menyentuh hati pendengar, dan ia selalu berhasil menciptakan lagu-lagu yang mudah diingat, menjadikannya salah satu artis terkemuka dalam industri musik saat ini.</item>
+
+        <item>NDX A.K.A adalah grup musik yang dikenal dengan gaya hip-hop dan lagu-lagu yang menyentuh isu-isu sosial yang relevan dengan kehidupan masyarakat. Mereka sering menyampaikan pesan-pesan positif melalui lirik yang penuh makna, mendorong pendengarnya untuk berpikir kritis. Musik mereka menggabungkan elemen tradisional dan modern, menciptakan suara yang unik di industri musik Indonesia. Selain itu, mereka juga sering mengadakan konser dan acara untuk mendekatkan diri dengan penggemar, sehingga menjadikan mereka salah satu grup yang diperhitungkan dalam genre hip-hop.</item>
+
+        <item>Ndarboy Genk adalah grup musik yang terkenal dengan genre reggae dan pop, membawa nuansa ceria dalam setiap lagu yang mereka rilis. Lirik mereka sering kali menyentuh tema cinta dan persahabatan, diiringi dengan melodi yang easy listening. Lagu-lagu Ndarboy Genk memiliki daya tarik universal, mampu menghibur berbagai kalangan. Dengan penampilan yang enerjik dan karakter yang menarik, mereka berhasil membangun basis penggemar yang solid, menjadikan setiap penampilan mereka sangat dinantikan oleh para penggemar.</item>
+
+        <item>Masddho adalah penyanyi yang menonjol di kancah musik pop Indonesia, dikenal dengan lagu-lagu yang memiliki beat energik dan lirik yang relatable. Ia mampu menyampaikan emosi dan cerita dengan baik, menjadikan setiap lagunya terasa dekat dengan pengalaman pendengar. Dengan penampilan yang memukau dan bakatnya dalam menyanyi, Masddho berhasil menghibur banyak penggemar dan menarik perhatian di industri musik tanah air. Seiring berkembangnya kariernya, ia terus mengeksplorasi berbagai genre musik untuk menunjukkan versatilitasnya sebagai seorang artis.</item>
+
+        <item>Bruno Mars adalah penyanyi, penulis lagu, dan produser musik asal Amerika Serikat yang telah meraih berbagai penghargaan prestisius. Ia terkenal dengan lagu-lagu yang menggabungkan berbagai genre, termasuk pop, R&amp;B, dan funk. Suaranya yang kuat dan kemampuan menarinya yang luar biasa menjadikannya salah satu artis terpopuler di dunia saat ini. Selain itu, penampilannya yang karismatik dan energi panggung yang tinggi membuat setiap konsernya menjadi pengalaman yang tak terlupakan bagi para penggemar.</item>
+
+        <item>Maroon 5 adalah band pop rock asal Amerika yang telah menciptakan banyak lagu hits yang mendunia. Dipimpin oleh vokalis Adam Levine, mereka dikenal dengan melodi yang catchy dan lirik yang mendalam, sering kali mengisahkan tentang cinta dan hubungan. Sejak debut, Maroon 5 telah merilis banyak album sukses dan memenangkan berbagai penghargaan musik, menjadikannya salah satu band terbesar dan paling berpengaruh di industri musik global. Setiap penampilan mereka selalu dinanti-nanti, dan lagu-lagu mereka terus menjadi favorit di berbagai kalangan.</item>
+
+        <item>One Direction adalah boy band asal Inggris yang menjadi fenomena global pada awal 2010-an. Mereka dikenal dengan lagu-lagu pop yang catchy dan penampilan yang menarik, yang berhasil merebut hati jutaan penggemar di seluruh dunia. Meskipun setelah beberapa tahun mereka memutuskan untuk bersolo karier, karya-karya mereka tetap dikenang dan dicintai oleh banyak orang. Setiap anggota memiliki bakat unik yang berkontribusi pada kesuksesan grup, dan meskipun telah terpisah, mereka tetap memiliki basis penggemar yang setia.</item>
+
+        <item>Coldplay adalah band rock alternatif asal Inggris yang terkenal dengan musik yang emosional dan lirik yang mendalam. Dikenal dengan lagu-lagu hits seperti \"Fix You\" dan \"Yellow\", Coldplay telah memenangkan banyak penghargaan dan menjadi salah satu band terbesar di dunia. Mereka sering mengeksplorasi tema cinta, kehilangan, dan harapan dalam lagu-lagu mereka, menciptakan ikatan yang kuat dengan pendengar. Penampilan mereka di atas panggung selalu megah dan penuh energi, menjadikan setiap konser menjadi pengalaman yang sangat berkesan.</item>
+
+        <item>Hozier adalah penyanyi dan penulis lagu asal Irlandia yang dikenal dengan suaranya yang khas dan lirik yang puitis. Lagu terkenalnya \"Take Me to Church\" tidak hanya sukses secara komersial, tetapi juga menggugah kesadaran akan isu-isu sosial. Hozier menggabungkan elemen blues dan rock dalam musiknya, menciptakan suara yang unik dan mendalam. Karya-karyanya sering kali menggambarkan perasaan yang kompleks, menjadikannya salah satu artis yang sangat dihormati di dunia musik.</item>
+
+        <item>James Arthur adalah penyanyi asal Inggris yang dikenal setelah memenangkan ajang pencarian bakat dan mencuri perhatian dunia dengan lagu-lagu emosionalnya. Ia terkenal dengan vokalnya yang kuat dan kemampuannya menyampaikan perasaan dalam setiap lagu. James sering menggambarkan pengalaman pribadi dalam liriknya, menjadikannya dekat dengan penggemar. Dengan banyaknya penggemar yang mendukungnya, ia terus berkarya dan merilis lagu-lagu yang mampu menyentuh hati banyak orang.</item>
+
+        <item>Tiara Andini adalah penyanyi muda berbakat Indonesia yang dikenal dengan lagu-lagu pop yang catchy dan lirik yang relatable. Setelah mengikuti ajang pencarian bakat, Tiara berhasil menarik perhatian banyak orang dengan suara merdunya dan penampilan yang enerjik. Ia terus berkembang dalam karier musiknya dan merilis berbagai single yang mendapat respon positif dari penggemar. Tiara menjadi salah satu bintang muda yang menjanjikan dalam industri musik Indonesia saat ini.</item>
+
+        <item>Lee Hi adalah penyanyi asal Korea Selatan yang dikenal dengan vokalnya yang kuat dan soulful. Ia memulai kariernya setelah tampil di ajang pencarian bakat dan sejak itu merilis banyak lagu hits yang diterima baik oleh pendengar. Lee Hi sering menggali tema cinta, kehilangan, dan kerinduan dalam liriknya, menciptakan koneksi emosional dengan penggemar. Dengan bakatnya yang luar biasa, ia telah menjadi salah satu artis wanita terkemuka di industri musik K-pop.</item>
+
+        <item>Yoasobi adalah duo musik asal Jepang yang terkenal dengan lagu-lagu yang diangkat dari cerita pendek. Musik mereka menggabungkan elemen pop dan storytelling, menciptakan pengalaman mendengarkan yang unik dan menyentuh. Setiap lagu mereka sering kali memiliki makna yang mendalam, menjadikan pendengar tidak hanya menikmati musik, tetapi juga merenungkan cerita di baliknya. Yoasobi telah meraih popularitas tinggi di Jepang dan di seluruh dunia berkat gaya mereka yang inovatif.</item>
+
+        <item>Linked Horizon adalah grup musik yang terkenal karena lagu-lagu tema anime, terutama dari serial \"Attack on Titan\". Mereka dikenal dengan melodi yang epik dan lirik yang penuh semangat, sering kali menggugah rasa patriotisme dan keberanian. Musik mereka sangat cocok dengan tema anime yang mereka soundtrack, menciptakan pengalaman yang sangat mendalam bagi penggemar. Linked Horizon terus berinovasi dan menciptakan karya-karya yang menarik bagi para penggemar musik dan anime.</item>
+    </string-array>
+
+
+</resources>

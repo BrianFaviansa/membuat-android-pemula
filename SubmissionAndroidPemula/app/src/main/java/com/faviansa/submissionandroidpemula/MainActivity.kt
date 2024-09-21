@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
@@ -45,7 +46,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
-            R.id.action_about -> {
+            R.id.about_page -> {
                 val aboutPageIntent = Intent(this@MainActivity, AboutActivity::class.java)
                 val aboutData = About(
                     "Brian Faviansa Putra Diasti",

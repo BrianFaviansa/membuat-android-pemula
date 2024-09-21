@@ -6,6 +6,8 @@
     <string name="about">About</string>
     <string name="nama_lengkap">Brian Faviansa Putra Diasti</string>
     <string name="email">brianfpd31@gmail.com</string>
+    <string name="my_fav_song">My Favorite Song :</string>
+    <string name="share">Share</string>
 
 
     <string-array name="data_name">

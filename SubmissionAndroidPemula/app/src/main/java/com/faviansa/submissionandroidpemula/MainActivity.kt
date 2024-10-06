@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
-        toolbar = findViewById(R.id.nav_bar)
+        toolbar = findViewById(R.id.toolbar_main)
         setSupportActionBar(toolbar)
 
         rvMusicians = findViewById(R.id.rv_musicians)

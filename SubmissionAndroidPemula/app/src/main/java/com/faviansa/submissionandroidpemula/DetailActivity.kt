@@ -21,7 +21,7 @@ class DetailActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_detail)
 
-        val toolbar: Toolbar = findViewById(R.id.nav_bar)
+        val toolbar: Toolbar = findViewById(R.id.toolbar_musician)
         setSupportActionBar(toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setDisplayShowHomeEnabled(true)

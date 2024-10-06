@@ -28,7 +28,7 @@ class AboutActivity : AppCompatActivity() {
         tvAboutEmail = findViewById(R.id.tvAbout_email)
         imageAbout = findViewById(R.id.imageAbout)
 
-        val toolbar: Toolbar = findViewById(R.id.nav_bar)
+        val toolbar: Toolbar = findViewById(R.id.toolbar_detail)
         setSupportActionBar(toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setDisplayShowHomeEnabled(true)
@@ -43,7 +43,7 @@ class AboutActivity : AppCompatActivity() {
         if (aboutData != null) {
             tvAboutName.text = aboutData.name ?: ""
             tvAboutEmail.text = aboutData.email ?: ""
-            aboutData.photo?.let { photoResId ->
+            aboutData.photo.let { photoResId ->
                 imageAbout.setImageResource(photoResId)
             }
         }

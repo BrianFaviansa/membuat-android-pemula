@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/about_page"
-        android:icon="@drawable/about_icon"
+        android:icon="@drawable/baseline_account_circle_24"
         android:title="@string/app_name"
         app:showAsAction="ifRoom" />
 </menu>
